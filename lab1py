@@ -1,19 +1,17 @@
 #!/usr/bin/python3
 
-a = (24 +25)
-print("$" + str(a))
 
-b = (23 * 12)
-print("$" + str(b))
+print("$" + str(24 +25))
 
-c = (10 + 0.5)
-print("$" + str(c))
+
+print("$" + str(23 * 12))
+
+
+print("$" + str(10 + 0.5))
 
 # problems 1 through 3
 
-# i was able to do it in one line but the last question
-# requires me to add a dollar sign and i dont think
-# there is a way to do that in ONLY ONE LINE
+# i fiured out how to make it one line
 
 price = int(40)
 #
