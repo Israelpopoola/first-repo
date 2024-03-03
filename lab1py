@@ -1,4 +1,26 @@
 #!/usr/bin/python3
 
-print("hello world")
+print(24 + 25)
+print(23 * 12)
+print(10 + 0.5)
+
+# problems 1 through 3
+
+price = int(40)
+
+question_four = (price + 5)
+
+print ("Number 4: " + str(question_four))
+
+# problem 4^^^^
+
+Sales = int(5)
+
+question_five = (Sales - price )
+
+print ("Number 5: " + str(question_five))
+
+
+
+
 
