@@ -1,24 +1,40 @@
 #!/usr/bin/python3
 
-print(24 + 25)
-print(23 * 12)
-print(10 + 0.5)
+a = (24 +25)
+print("$" + str(a))
+
+b = (23 * 12)
+print("$" + str(b))
+
+c = (10 + 0.5)
+print("$" + str(c))
 
 # problems 1 through 3
 
+# i was able to do it in one line but the last question
+# requires me to add a dollar sign and i dont think
+# there is a way to do that in ONLY ONE LINE
+
 price = int(40)
-
+#
 question_four = (price + 5)
-
-print ("Number 4: " + str(question_four))
-
+#
+print ("Number 4: $" + str(question_four))
+#
 # problem 4^^^^
-
+#
 Sales = int(5)
 
-question_five = (Sales - price )
+question_five = (Sales - price)
 
-print ("Number 5: " + str(question_five))
+x=( Sales - price)
+
+print ("Number 5: $" + str(question_five))
+
+
+# The original price was XX. With a sale of XX, your current prince is XX
+
+print (" The original price was $" + str(price) + ". With a sale of $" + str(Sales) + ", your current price is $" + str(x))
 
 
 
