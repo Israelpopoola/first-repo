@@ -52,6 +52,11 @@
 # Create a function that takes in a dictionary and returns the value of the second item
 #
 
+dictionary ={"first": 1, "second": 2, "third": 3}
+
+def()
+
+print(dictionary)
 
 
 
