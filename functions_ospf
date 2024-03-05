@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+
+x = input("Ospf process id: ")
+ipaddress = input("Ip address + wild card mask: ")
+area_id = input("Area ID: ")
+
+print("network " + str(x), "\n" + "network" + str(ipaddress) + "area" + str(area_id))
+
+#half was done in pycharm the rest was done in linux so i could get comfortable in this feild
+
+
+
+
+#/n testing
